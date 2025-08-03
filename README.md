@@ -13,6 +13,6 @@ We also performed value counts on individual features to uncover uncommon, unusu
 
 **Data Formatting and Structure** Next, we standardized column names and formats to ensure uniformity throughout the dataset. This step involved correcting inconsistencies in naming conventions, aligning data types, and organizing the dataset for seamless analysis and model input. 
 
-**Model Training and Prediction** K-Means, DBSCAN, and Hierarchical Clustering models were trained on the selected input features. The optimal number of clusters was determined using the Elbow Method and Silhouette Score. The resulting clusters were visualized through scatter plots to analyze the cluster formation.
+**Model Training and Recommendation** K-Means, DBSCAN, and Hierarchical Clustering models were trained on the selected input features. The optimal number of clusters was determined using the Elbow Method and Silhouette Score. The resulting clusters were visualized through scatter plots to analyze the cluster formation.
 
 **Cluster Evaluation** Each point on the plot represents a unique movie or TV show, with colors indicating their respective cluster assignments derived from features such as rating, popularity, or other engineered attributes. This clustering reveals patterns in content grouping, enabling more informed and personalized recommendation strategies.
